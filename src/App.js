@@ -1,18 +1,7 @@
-import React, { useEffect } from 'react';
-import useWindowSize from './components/useWindowSize';
+import React from 'react';
 import './App.css';
 
 function App() {
-    const windowSize = useWindowSize();
-
-    // useEffect(() => {
-    //     console.log(windowSize && windowSize[0]);
-    //     if (windowSize && windowSize[0] && windowSize[0] < 1024 && windowSize[1] > windowSize[0]) {
-    //         document.body.classList.add('rotated');
-    //     } else {
-    //         document.body.classList.remove(['rotated'])
-    //     }
-    // }, [windowSize])
 
     const handleTest1 = () => {
         window.screen.orientation.lock('landscape').then(() => console.log('successfully locked orientation'), () => console.log('error occurred'));
