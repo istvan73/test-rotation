@@ -16,7 +16,7 @@ function App() {
             <a href='https://www.youtube.com/watch?v=h5xU2bghopw'>Cool music</a>
             <p>Only solution 1 works, and we have a default 'solution', which may or may not work on safari</p>
             <ul>
-                <li><button onClick={handleTest1}>Test1</button></li>
+                <li><button>Test1</button></li>
                 <li><button>Test2</button></li>
                 <li><button>Test3</button></li>
             </ul>
